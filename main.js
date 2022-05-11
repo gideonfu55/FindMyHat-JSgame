@@ -11,8 +11,6 @@ const row = 10;
 const col = 10; 
 let getRowHat = 0; // random number for placement of hat at row
 let getColHat = 0; // random number for placement of hat at column
-// let getRowHole = 0; // random number for placement of hole at row
-// let getColHole = 0; // random number for placement of hole at column
 
 // Building the Field of the game (10 row by 10 col):
 class Field {
@@ -70,21 +68,24 @@ class Field {
 
     // When game is running:  
     runGame() {
+        // Game state to keep game running or stop:
         let active = true;
+
         while (active) {
             this.print();
             this.askQuestion();
+
             // Execute conditions for game to reach win or lose state:
             if (this.outOfBounds()) {
-                console.log('Out of bounds - Game End!');
+                console.log("Out of bounds - Game End!");
                 active = false;
                 break;
             } else if (this.fallInHole()) {
-                console.log('Sorry, you fell down a hole!');
+                console.log("Sorry, you fell down a hole!");
                 active = false;
                 break;
             } else if (this.gotTheHat()) {
-                console.log('Congrats, you found your hat!');
+                console.log("Congrats, you found your hat!");
                 active = false;
                 break;
             }
@@ -107,19 +108,19 @@ class Field {
 
         // Implement 'commands' to move the character:
         switch (answer) {
-            case 'U':
+            case "U":
                 this.locationY -= 1;
                 break;
 
-            case 'D':
+            case "D":
                 this.locationY += 1;
                 break;
 
-            case 'L':
+            case "L":
                 this.locationX -= 1;
                 break;
 
-            case 'R':
+            case "R":
                 this.locationX += 1;
                 break;
           
