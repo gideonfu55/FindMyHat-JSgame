@@ -11,3 +11,7 @@ I was stuck at the nested loop for placing holes on the field quite a bit, as I 
 ●	What would make your experience with this assessment better?
 
 I think I needed more practice with combining all different JS elements, and the logical process is still difficult to grasp at times. Having more projects as examples that can be referenced (even if indirectly) could make the learning flow better.
+
+●	Updates to think consider:
+
+Having the game restart when a path/solution to finding the hat is not possible.
