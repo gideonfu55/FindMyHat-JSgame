@@ -2,7 +2,7 @@
 
 ●	What did you like about this project?
 
-This project was challenging, but at the same time, it required the use of all the things that we have learnt during the lessons. It was fun to see the character move on the field, and I actually became a game 'developer' in the process XD. It also showed me the difficulty of starting a coding project like this from scratch and the gaps in my knowledge & skill for JS. The process of planning and understanding what is required for each component of the game also became more important - and it showed me that my 'code first think later' approach isn't always going to work.
+This project was challenging, but at the same time, it required the use of all the things that we have learnt during the lessons. It was fun to see the 'character' move on the field, and I actually became a game 'developer' in the process XD. The biggest highlight was that I understood the importance of states in apps or functions through this exercise. Overall, it also showed me the difficulty of starting a coding project like this from scratch and the gaps in my knowledge & skill for JS. The process of planning and understanding what is required for each component of the game also became more important - and it showed me that my 'code first think later' approach isn't always going to work.
 
 ●	What did you struggle with in this project?
 
