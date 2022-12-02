@@ -1,4 +1,4 @@
-# javascriptassessment
+# GenerationSGAssessment #JSGame
 
 ●	What did you like about this project?
 
